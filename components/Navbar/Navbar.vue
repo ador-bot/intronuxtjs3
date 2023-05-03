@@ -19,6 +19,9 @@
                 <li class="nav-item">
                 <NuxtLink class="nav-link" to="/posts">Posts</NuxtLink>
                 </li>
+                <li class="nav-item">
+                <NuxtLink class="nav-link" to="/movies">Movies</NuxtLink>
+                </li>
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

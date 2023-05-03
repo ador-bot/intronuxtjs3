@@ -8,5 +8,16 @@ export default defineNuxtConfig({
                 }
             ]
         }
+    },
+    modules:[ 
+        'nuxt-windicss',
+        '@vueuse/nuxt',
+    ],
+    runtimeConfig: {
+        apiKey: '',
+        apiBaseUrl: '',
+        public:{
+            imgBaseUrl: ''
+        }
     }
 })
